@@ -19,5 +19,7 @@ end;
 -----------------------------------------
 
 function onItemUse(target)
-    target:messageBasic(24,0,target:addHP(50*ITEM_POWER));
+    local duration = 5400;
+    target:delStatusEffect(EFFECT_WEAKNESS);
+    target:addStatusEffect(EFFECT_WEAKNESS,2,0,duration);
 end;
