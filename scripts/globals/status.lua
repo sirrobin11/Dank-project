@@ -122,7 +122,7 @@ SUBEFFECT_IMPACTION     = 14;
 ------------------------------------
 
 EFFECT_KO                       = 0
-EFFECT_WEAKNESS                 = 1
+EFFECT_WEAKNESS                 = 113
 EFFECT_SLEEP_I                  = 2
 EFFECT_POISON                   = 3
 EFFECT_PARALYSIS                = 4
@@ -230,7 +230,7 @@ EFFECT_BARBLIND                 = 109
 EFFECT_BARSILENCE               = 110
 EFFECT_BARPETRIFY               = 111
 EFFECT_BARVIRUS                 = 112
-EFFECT_RERAISE                  = 113
+EFFECT_RERAISE                  = 1
 EFFECT_COVER                    = 114
 EFFECT_UNLIMITED_SHOT           = 115
 EFFECT_PHALANX                  = 116
